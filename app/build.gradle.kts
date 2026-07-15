@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    //Fragment KTX do Jetpack
+    implementation("androidx.fragment:fragment-ktx:1.5.5")
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
